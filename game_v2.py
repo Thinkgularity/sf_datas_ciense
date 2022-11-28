@@ -25,7 +25,7 @@ def random_predict(number: int = 1) -> int:
             break # выход из цикла если угадали
         elif number > predict_number:
             lower = predict_number
-        elif number < predict_number:
+        else:
             higher = predict_number
     return count
 
